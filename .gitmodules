@@ -1,0 +1,9 @@
+[submodule "DymoTeaLabel"]
+	path = DymoTeaLabel
+	url = git@github.com:danielskowronski/DymoTeaLabel.git
+[submodule "tablet"]
+	path = tablet
+	url = git@github.com:danielskowronski/internal__tablet.git
+[submodule "pogoda"]
+	path = pogoda
+	url = git@github.com:danielskowronski/internal__pogoda.git
