@@ -1,6 +1,6 @@
 [submodule "DymoTeaLabel"]
 	path = DymoTeaLabel
-	url = git@github.com:danielskowronski/DymoTeaLabel.git
+	url = https://github.com/danielskowronski/DymoTeaLabel.git
 [submodule "tablet"]
 	path = tablet
 	url = git@bitbucket.org:amaterasu-dsinf-net/tablet.git
