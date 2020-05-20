@@ -7,3 +7,6 @@
 [submodule "pogoda"]
 	path = pogoda
 	url = git@bitbucket.org:amaterasu-dsinf-net/pogoda.git
+[submodule "random"]
+	path = random
+	url = git@github.com:danielskowronski/offline-random-passwords.git
