@@ -3,10 +3,10 @@
 	url = https://github.com/danielskowronski/DymoTeaLabel.git
 [submodule "tablet"]
 	path = tablet
-	url = git@bitbucket.org:amaterasu-dsinf-net/tablet.git
+	url = git@github.com:skowronski-cloud/home.git
 [submodule "pogoda"]
 	path = pogoda
-	url = git@bitbucket.org:amaterasu-dsinf-net/pogoda.git
+	url = git@github.com:skowronski-cloud/pogoda.git
 [submodule "random"]
 	path = random
 	url = git@github.com:danielskowronski/offline-random-passwords.git
