@@ -1,12 +1,9 @@
 [submodule "DymoTeaLabel"]
 	path = DymoTeaLabel
 	url = https://github.com/danielskowronski/DymoTeaLabel.git
-[submodule "tablet"]
-	path = tablet
+[submodule "home"]
+	path = home
 	url = git@github.com:skowronski-cloud/home.git
-[submodule "pogoda"]
-	path = pogoda
-	url = git@github.com:skowronski-cloud/pogoda.git
 [submodule "random"]
 	path = random
 	url = git@github.com:danielskowronski/offline-random-passwords.git
