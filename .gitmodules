@@ -1,3 +1,6 @@
 [submodule "random"]
 	path = random
 	url = git@github.com:danielskowronski/offline-random-passwords.git
+[submodule "Public_Configs"]
+	path = Public_Configs
+	url = git@github.com:skowronski-cloud/Public_Configs.git
