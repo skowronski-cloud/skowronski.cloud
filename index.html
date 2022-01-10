@@ -3,42 +3,16 @@
 <head>
   <meta charset="utf-8" />
   <title>skowronski.cloud</title>
-  <style>
-    @font-face {
-      font-family: 'Ubuntu';
-      font-style: normal;
-      font-weight: 400;
-      src: url(https://skowron.ski/assets/fonts/Ubuntu.woff2) format('woff2');
-    }
-    @font-face {
-      font-family: 'Ubuntu Mono';
-      font-style: normal;
-      font-weight: 400;
-      src: url(https://skowron.ski/assets/fonts/UbuntuMono.woff2) format('woff2');
-    }
-    html, body{
-        font-size: large;
-        font-family: 'Ubuntu', sans-serif;
-        padding: 10px;
-    }
-    pre, kbd{
-        font-family: 'Ubuntu Mono', monospace;
-    }
-    .logo {
-        height: 128px;
-    }
-    ul, ol, h4, h3, h2, h1{
-      margin-top: 0.5em;
-      margin-bottom: 0.25em;
-    }
-  </style>
+  <link rel="stylesheet" type="text/css" href="/scloud_assets/scloud.css" />
+  <link rel="import" href="">
+
 </head>
 <body>
 <h1>
     <table>
         <tr>
             <td>
-                <img src="logo_cloud.png" class="logo" />
+                <img src="/scloud_assets/logo_cloud.png" class="logo" />
             </td>
             <td style="padding-left: 10px; font-size: 96px;" >
                 skowronski.cloud
@@ -53,17 +27,13 @@
   <br />
   <li><b><a href="/Public_Configs">Public_Configs</a></b></li>
   <li><b><a href="/DS.crt">DS.crt</a> - skowronski.cloud Root CA</b></li>
-  <pre>
-Subject: O=skowronski.cloud, CN=skowronski.cloud Root CA
-SHA-256: EA71889680E5A991AEE6268961D57497DC1154472985A59CC882B449AE06540D
-    MD5: 21A065AE02E5DDAA0799A81D2475E7AC1A14A5A6
-  </pre>
   <br />
   <li><b><a href="https://ppp.skowronski.cloud/">Pocket++</a></b></li>
   <br />
   <li><b><a href="https://grafana.skowronski.cloud">Grafana</a></b></li>
   <li><b><a href="https://prometheus.skowronski.cloud">Prometheus</a></b></li>
-  <li><b><a href="https://squadcast.skowronski.cloud/">squadcast</a></b></li>
+  <li><b><a href="https://rundeck.skowronski.cloud">Rundeck</a></b></li>
+  <li><b><a href="https://skowronski-cloud.pagerduty.com/">PagerDuty</a></b></li>
   <li><b><a href="https://plausible.io/blog.dsinf.net">plausible.io</a></b></li>
   <br />
   <li><b><a href="https://github.com/skowronski-cloud/skowronski-cloud-wiki">skowronski.cloud WIKI</a></b></li>
@@ -75,29 +45,6 @@ SHA-256: EA71889680E5A991AEE6268961D57497DC1154472985A59CC882B449AE06540D
 <br />
 Privacy policy available at <a href="https://skowron.ski/privacy_policy.html">https://skowron.ski/privacy_policy.html</a>
 
-<style type="text/css">
-.rainbow {
-  position: fixed;
-  z-index: 999999;
-  width: 100%;
-  height: 0.5%;
-  left:  0;
-}
-html {
-  padding-bottom: 3%;
-}
-#rainbow_red    { bottom: 2.50%; background: #FF0018; }
-#rainbow_orange { bottom: 2.00%; background: #FFA52C; }
-#rainbow_yellow { bottom: 1.50%; background: #FFFF41; }
-#rainbow_green  { bottom: 1.00%; background: #008018; }
-#rainbow_blue   { bottom: 0.50%; background: #0000F9; }
-#rainbow_violet { bottom: 0.00%; background: #86007D; }
-</style>
-<div id="rainbow_red"    class="rainbow"></div>
-<div id="rainbow_orange" class="rainbow"></div>
-<div id="rainbow_yellow" class="rainbow"></div>
-<div id="rainbow_green"  class="rainbow"></div>
-<div id="rainbow_blue"   class="rainbow"></div>
-<div id="rainbow_violet" class="rainbow"></div>
+<script src="/scloud_assets/insert_rainbow.js"></script>
 </body>
 </html>

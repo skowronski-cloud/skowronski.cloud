@@ -4,3 +4,6 @@
 [submodule "Public_Configs"]
 	path = Public_Configs
 	url = git@github.com:skowronski-cloud/Public_Configs.git
+[submodule "scloud_assets"]
+	path = scloud_assets
+	url = git@github.com:skowronski-cloud/scloud_assets.git
